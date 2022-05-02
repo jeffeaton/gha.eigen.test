@@ -3,8 +3,6 @@
 
 #include "code.h"
 
-using namespace Rcpp;
-
 //' Add 1
 //'
 //' @param x a number
