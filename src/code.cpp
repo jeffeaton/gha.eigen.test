@@ -1,7 +1,7 @@
 #include <Rcpp.h>
 #include <RcppEigen.h>
 
-#include "code.h"
+#include "gha_eigen_test.h"
 
 //' Add 1
 //'
@@ -13,7 +13,6 @@
 //' @export
 //' 
 // [[Rcpp::export]]
-
 double add_one(const double x) {
   double v = x;
   add_one_t(&v);
