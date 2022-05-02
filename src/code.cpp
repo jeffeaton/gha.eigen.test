@@ -1,7 +1,7 @@
 #include <Rcpp.h>
 #include <RcppEigen.h>
 
-#include <unsupported/Eigen/CXX11/Tensor>
+#include "code.h"
 
 using namespace Rcpp;
 
@@ -18,9 +18,6 @@ using namespace Rcpp;
 
 double add_one(const double x) {
   double v = x;
-  
-  Eigen::TensorMap<Eigen::Tensor<double, 1>> v_t(&v, 1);
-  v_t(0) = v_t(0) + 1.0;
-    
+  add_one_t(&v);
   return(v);
 }
