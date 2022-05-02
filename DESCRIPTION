@@ -1,4 +1,4 @@
-Package: gha.eigen.test
+Package: ghaeigentest
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -14,8 +14,8 @@ LinkingTo:
     RcppEigen
 Imports: 
     Rcpp
-URL: https://github.com/jeffeaton/gha.eigen.test
-BugReports: https://github.com/jeffeaton/gha.eigen.test/issues
+URL: https://github.com/jeffeaton/ghaeigentest
+BugReports: https://github.com/jeffeaton/ghaeigentest/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

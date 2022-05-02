@@ -1,23 +1,23 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gha.eigen.test
+# ghaeigentest
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/jeffeaton/gha.eigen.test/workflows/R-CMD-check/badge.svg)](https://github.com/jeffeaton/gha.eigen.test/actions)
+[![R-CMD-check](https://github.com/jeffeaton/ghaeigentest/workflows/R-CMD-check/badge.svg)](https://github.com/jeffeaton/ghaeigentest/actions)
 <!-- badges: end -->
 
-The goal of gha.eigen.test is to …
+The goal of ghaeigentest is to …
 
 ## Installation
 
-You can install the development version of gha.eigen.test from
+You can install the development version of ghaeigentest from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("jeffeaton/gha.eigen.test")
+devtools::install_github("jeffeaton/ghaeigentest")
 ```
 
 ## Example
@@ -25,7 +25,7 @@ devtools::install_github("jeffeaton/gha.eigen.test")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(gha.eigen.test)
+library(ghaeigentest)
 ## basic example code
 ```
 

@@ -2,4 +2,4 @@
 
 export(add_one)
 importFrom(Rcpp,sourceCpp)
-useDynLib(gha.eigen.test, .registration = TRUE)
+useDynLib(ghaeigentest, .registration = TRUE)

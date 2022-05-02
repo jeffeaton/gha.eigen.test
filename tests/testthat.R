@@ -1,4 +1,4 @@
 library(testthat)
-library(gha.eigen.test)
+library(ghaeigentest)
 
-test_check("gha.eigen.test")
+test_check("ghaeigentest")

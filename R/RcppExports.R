@@ -11,6 +11,6 @@
 #' @export
 #' 
 add_one <- function(x) {
-    .Call(`_gha_eigen_test_add_one`, x)
+    .Call(`_ghaeigentest_add_one`, x)
 }
 

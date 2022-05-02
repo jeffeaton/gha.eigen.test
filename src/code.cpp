@@ -1,7 +1,7 @@
 #include <Rcpp.h>
 #include <RcppEigen.h>
 
-#include "gha_eigen_test.h"
+#include "ghaeigentest.h"
 
 //' Add 1
 //'
