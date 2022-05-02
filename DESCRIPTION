@@ -14,3 +14,5 @@ LinkingTo:
     RcppEigen
 Imports: 
     Rcpp
+URL: https://github.com/jeffeaton/gha.eigen.test
+BugReports: https://github.com/jeffeaton/gha.eigen.test/issues
