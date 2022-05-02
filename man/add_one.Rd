@@ -12,3 +12,7 @@ add_one(x)
 \description{
 Add 1
 }
+\examples{
+add_one(3.5)
+
+}

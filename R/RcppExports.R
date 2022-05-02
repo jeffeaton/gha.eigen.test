@@ -5,9 +5,12 @@
 #'
 #' @param x a number
 #'
+#' @examples
+#' add_one(3.5)
+#' 
 #' @export
 #' 
 add_one <- function(x) {
-    .Call('_gha_eigen_test_add_one', PACKAGE = 'gha.eigen.test', x)
+    .Call(`_gha_eigen_test_add_one`, x)
 }
 
